@@ -17,3 +17,12 @@ By using git diff we can see the changes that we are ready to commit.
 This allows us to ensure that all the changes are part of the same logical change. If a file is unrelated, we can see this using git diff.
 The staging area allows us to add only the files we want to the commit.
 Combined with git diff we can ensure that only the changes we want are committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+There are many situtations where branches will help in keeping a history orgranized.
+The most obvious is when there are two unrelated features being worked on simulataneously.
+Should we do this in only one branch, the log would contain check-ins from both features. And would make reading the history more difficult.
+Splitting the features would allow the history of each to be more easily read and understood.
+We can also see when work on a feautre was started and exactly when it was added to the master. This makes keeping track of various features much easier.
+
