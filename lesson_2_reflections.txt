@@ -26,3 +26,12 @@ Should we do this in only one branch, the log would contain check-ins from both 
 Splitting the features would allow the history of each to be more easily read and understood.
 We can also see when work on a feautre was started and exactly when it was added to the master. This makes keeping track of various features much easier.
 
+How do the diagrams help you visualize the branch structure?
+
+The diagram of the branch structure allows the user to see what branches are where. 
+As well we can get a better understanding of when the branches are made and therefore which branches contain which code.
+In a complex system, where we may have branches of branches, a diagram is necessary in order to get an idea of the overall layout of the code.
+
+
+
+
