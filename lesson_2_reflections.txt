@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a new repository is initialized it changes the directory from a normal folder into a git repository.
+Hidden files containing git meta-data are created. These files allow other git commands, such as git commit to be performed on the directory.
+
