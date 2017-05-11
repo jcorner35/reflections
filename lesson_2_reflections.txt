@@ -10,3 +10,10 @@ This allows the user to separate modified files into logical commits, rather tha
 The staging area contains a subset of the files in the working directory, those that have been modified and selected to be committed.
 The staging area is different from the repository in that the staging area alone does not allow for any of benifits the repository gives you. 
 Files must be committed to the repository in order for log, diff and checkout to function.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By using git diff we can see the changes that we are ready to commit.
+This allows us to ensure that all the changes are part of the same logical change. If a file is unrelated, we can see this using git diff.
+The staging area allows us to add only the files we want to the commit.
+Combined with git diff we can ensure that only the changes we want are committed.
