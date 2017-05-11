@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 When a new repository is initialized it changes the directory from a normal folder into a git repository.
 Hidden files containing git meta-data are created. These files allow other git commands, such as git commit to be performed on the directory.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows the user to specify which modified files should be part of a commit.
+This allows the user to separate modified files into logical commits, rather than committing unrealated files together.
+The staging area contains a subset of the files in the working directory, those that have been modified and selected to be committed.
+The staging area is different from the repository in that the staging area alone does not allow for any of benifits the repository gives you. 
+Files must be committed to the repository in order for log, diff and checkout to function.
