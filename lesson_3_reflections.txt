@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository is useful in several ways. 
+When collabarating with others on the same project, having the project stored locally makes it difficult to get the changes others have made.
+Having a remote repository allows you to easily 'pull' others changes, as well as 'push' your own.
+Having a remote repository makes it easier to get help.
+Finally and perhaps most importantly having a remote repository also backs up your code. 
+Should anything catastrohpic happen to your pc, you will not lose your data if it is stored remotely.
