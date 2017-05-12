@@ -32,6 +32,10 @@ The diagram of the branch structure allows the user to see what branches are whe
 As well we can get a better understanding of when the branches are made and therefore which branches contain which code.
 In a complex system, where we may have branches of branches, a diagram is necessary in order to get an idea of the overall layout of the code.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-
-
+Merging two branches together results in a single branch that contains the changes from both branches.
+The two branches will have a common ancestor, and by building on that ancestor we can incorporate the changes from both brances. Frequently this occurs automatically.
+Merging is represented by one node, pointing to two nodes. The one node is the merged branch. The two nodes it points two are the last commits made on each individual branch.
+We can think about merging as combining two branches into one. Such as when both branches contain equally significant changes.
+Or we can think about merging as merging one branch into another. For example, when merging a feature back into the master.
