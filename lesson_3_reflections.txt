@@ -6,3 +6,11 @@ Having a remote repository allows you to easily 'pull' others changes, as well a
 Having a remote repository makes it easier to get help.
 Finally and perhaps most importantly having a remote repository also backs up your code. 
 Should anything catastrohpic happen to your pc, you will not lose your data if it is stored remotely.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Manually pulling changes gives you control over when your code is changed.
+This is not an issue if only you are modifying code on the remote.
+However, if the remote is shared, others can update teh code on the remote without your knowledge.
+If the remote is updated without your knowledge and your repository is automatically kept up to date with the remote, these unknown changes will automatically be merged with your local repository.
+This can cause confusion, bugs and code that no longer compiles. Not good.
