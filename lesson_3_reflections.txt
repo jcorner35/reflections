@@ -14,3 +14,13 @@ This is not an issue if only you are modifying code on the remote.
 However, if the remote is shared, others can update teh code on the remote without your knowledge.
 If the remote is updated without your knowledge and your repository is automatically kept up to date with the remote, these unknown changes will automatically be merged with your local repository.
 This can cause confusion, bugs and code that no longer compiles. Not good.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a github invention that clones a github repository into another github repository.
+Forking points back to the originating repository, giving credit to the creator.
+A clone, like a fork, is a copy of repository. 
+A clone can be be a duplicate of a remote repository or a local repository. 
+A fork is always a clone, but a clone is not always a fork.
+A branch is part of a repository, allowing independent development of different features. 
+A branch does not create a copy of any files in the repository, instead it is only a label that is applied to a set of changes.
