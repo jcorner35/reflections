@@ -39,3 +39,12 @@ The two branches will have a common ancestor, and by building on that ancestor w
 Merging is represented by one node, pointing to two nodes. The one node is the merged branch. The two nodes it points two are the last commits made on each individual branch.
 We can think about merging as combining two branches into one. Such as when both branches contain equally significant changes.
 Or we can think about merging as merging one branch into another. For example, when merging a feature back into the master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Merging manually gives total control, but has major downsides. 
+1. An automatic merge can usually be done without issue making the manual merge unnceccessary.
+2. Manual merges are more error prone.
+3. Manual merges are more time consuming. Sometimes far more time consuming in the case of large merges.
+It is safe to say that automatic merges will go wrong far less frequently than manual merges, as the rules of when to merge basic and easy to understand.
+And due to the nature of git, if there is an issue it is easy to see the what was done during the merge. This makes resolving any issues caused by an automatic merge easy.
