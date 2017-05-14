@@ -24,3 +24,11 @@ A clone can be be a duplicate of a remote repository or a local repository.
 A fork is always a clone, but a clone is not always a fork.
 A branch is part of a repository, allowing independent development of different features. 
 A branch does not create a copy of any files in the repository, instead it is only a label that is applied to a set of changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having the last known state stored locally allows you to visuallize what changes have been made locally that are not on the remote.
+In this way we can generate a diff and know where the changes have been made.
+Without the last known state of the repository stored locally it would be impossible to known how the local repository has divereged.
+Having this information is especially useful when it comes time to reintegrate your local changes on the remote.
+As you can see the both what changes have been made on the remote as well as locally.
