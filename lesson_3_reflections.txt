@@ -32,3 +32,14 @@ In this way we can generate a diff and know where the changes have been made.
 Without the last known state of the repository stored locally it would be impossible to known how the local repository has divereged.
 Having this information is especially useful when it comes time to reintegrate your local changes on the remote.
 As you can see the both what changes have been made on the remote as well as locally.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaboration without GIT and GITHUB would be far more difficult.
+Updates to files would have to be done manually with updated files excahnged and changes merged by hand.
+It would also be more difficult ensuring that all colaborators are using the same version of the files.
+Using GIT but not GITHUB things get much better. We can set up are own remote for collaboration.
+And with the power of GIT changes are much easier to track. 
+Not using GITHUB only works if you know everyone you are collaborating with. 
+This also requires some trust as anyone can update the remote at any time.
+GITHUB allows strangers to collaborate on the same code, and gives control over that code to ensure the remote only contains approved changes.
