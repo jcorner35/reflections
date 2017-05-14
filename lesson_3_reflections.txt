@@ -43,3 +43,11 @@ And with the power of GIT changes are much easier to track.
 Not using GITHUB only works if you know everyone you are collaborating with. 
 This also requires some trust as anyone can update the remote at any time.
 GITHUB allows strangers to collaborate on the same code, and gives control over that code to ensure the remote only contains approved changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+The only time a change should be made directly to the master is when it is small and necessary. Such as fixing a typo that is stopping the master from compiling.
+Changes should almost always be made in a branch, even if the change is small.
+By changing in the branch, changes can be reviewed by others before they go into the master. 
+And work can occur on a different features independantly without the features conflict with each other.
+This keeps the commit history of each feature separate so that it can be more easily read.
